@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" >
 
-    <title>Todo List</title>
+    <title>Todo Lista11</title>
   </head>
   <body>
     <div class="container" >
@@ -28,7 +28,7 @@
         <ul class="list-group">
             {% for task in tasks %}
             <li class="list-group-item d-flex justify-content-between align-items-center">
-                <span 
+                <span
                     {% if task.done %} style="text-decoration: line-through;" {% endif %}
                 >
                 {{ task.description }}
