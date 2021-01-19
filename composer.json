@@ -5,6 +5,6 @@
         "middlewares/aura-router": "^1.1",
         "middlewares/request-handler": "^1.2",
         "twig/twig": "^2.5",
-        "illuminate/database": "^5.8"
+        "illuminate/database": "^6.20"
     }
 }
